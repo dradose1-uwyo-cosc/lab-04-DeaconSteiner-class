@@ -1,5 +1,3 @@
-import statistics
-
 # Deacon Steiner    
 # UWYO COSC 1010
 # 10/01/24
@@ -13,7 +11,10 @@ import statistics
 
 
 # This is your second lab section. It will primarily be about working with lists
-# Complete all sections of this assignment 
+# Complete all sections of this assignment
+ 
+import statistics
+
 max_temps = [
     32, 24, 22, 25, 37, 33, 34, 40, 40, 42,
     35, 35, 47, 49, 37, 37, 35, 23, 26, 25,
@@ -110,7 +111,7 @@ max_average = max_sum / len(max_temps) # Divide the sum by the number of items i
 
 print(f"the average max temp is {max_average}") # Print a message telling the user what the average temp is
 
-#print(statistics.mean(max_temps)) I used mean to ensure that my loop works
+# print(statistics.mean(max_temps)) # I used mean to ensure that my loop works
 
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
