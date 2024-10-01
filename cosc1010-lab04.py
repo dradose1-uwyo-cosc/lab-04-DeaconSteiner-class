@@ -101,7 +101,7 @@ min_temps = [
 # You cannot use any pre-existing functions (like mean()) and must perform the calculations manually.
 # Output the results of both calculations.
 
-# Find the average min and max temps
+# Find the average temp
 
 max_sum = 0 # create a variable to store the sum of all temps
 for temp in max_temps: # Create a for loop that will iterate over all values in list 
@@ -109,6 +109,7 @@ for temp in max_temps: # Create a for loop that will iterate over all values in 
 max_average = max_sum / len(max_temps) # Divide the sum by the number of items in the list
 
 print(f"the average max temp is {max_average}") # Print a message telling the user what the average temp is
+
 #print(statistics.mean(max_temps)) I used mean to ensure that my loop works
 
 # For the next part, determine the highest and lowest recorded temperatures.
