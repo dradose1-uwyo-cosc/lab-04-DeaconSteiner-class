@@ -1,6 +1,6 @@
-# [Name]
-## [Assignment #]
-## [Submission date: MM/DD/YY]
+# [Deacon Steiner]
+## [Assignment 04]
+## [Submission date: 10/01/24]
 ## Worked with/sources 
 * example
 * example
