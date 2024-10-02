@@ -12,7 +12,10 @@ for i in prices:
 print(f"I paid ${sum} for everything!")
 
 
-PriceToRemove = index(max(prices))
+PriceToRemove = prices.index(max(prices))
 
 del prices[PriceToRemove]
 del items[PriceToRemove]
+
+for index in range(len(items)):
+    print(f"Final price: {items[index]} for ${prices[index]}")
